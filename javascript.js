@@ -31,3 +31,6 @@ copied=resource; // copies resource's content to copied
 alert(copied);
 
 // test 
+
+const bday='22nd November 2002';
+alert(bday);
