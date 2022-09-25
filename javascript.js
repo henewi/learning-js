@@ -10,3 +10,23 @@ let max=57;
 let actual=(max-13);
 let percentage=(actual/max);
 console.log(percentage);
+
+// New stuff after summer.
+
+let message;
+message='Alert Message!' // stores the string
+alert(message);
+
+let message2='Hello';
+alert(message2); // combined into 2 lines from 3
+
+let message3;
+message3='start';
+message3='end'; // changes before the output
+alert(message3);
+
+let resource='content';
+let copied;
+copied=resource; // copies resource's content to copied
+alert(copied);
+
