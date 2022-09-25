@@ -30,3 +30,4 @@ let copied;
 copied=resource; // copies resource's content to copied
 alert(copied);
 
+// test 
