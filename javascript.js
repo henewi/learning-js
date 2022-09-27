@@ -80,6 +80,7 @@ if (1||0) {
 }
 
 let time=9;
-if (time<10||time>18) {
+let isWeekend=true;
+if (time<10||time>18||isWeekend) {
     alert("office closed!");
 }
