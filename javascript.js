@@ -59,3 +59,6 @@ console.log(oneplustwo);
 let text="beans";
 let newtext=text.replace("beans", "carrots");
 console.log(newtext);
+
+// alert  ('Z'>'A');
+
