@@ -74,3 +74,12 @@
 //    greeting="clearly you're not from here."
 //}
 //document.getElementById("day").innerHTML=greeting;
+
+if (1||0) {
+    alert("hello!!!!");
+}
+
+let time=9;
+if (time<10||time>18) {
+    alert("office closed!");
+}
