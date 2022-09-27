@@ -62,3 +62,16 @@ console.log(newtext);
 
 // alert  ('Z'>'A');
 
+// alert('Glow'>'Glee');
+
+const time = new Date().getHours();
+let greeting;
+if (time < 18) {
+    greeting="good day";
+} else if (time <19) {
+    greeting="good evening";
+} else {
+    greeting="clearly you're not from here."
+}
+document.getElementById("day").innerHTML=greeting;
+
