@@ -39,39 +39,38 @@
 
 // FUNDAMENTALS 2.
 
-const string='testing the strings';
+//const string='testing the strings';
 //console.log(string);
-const badString=string;
-console.log(badString);
+//const badString=string;
+//console.log(badString);
+//
+//const string2='It\'s in my DNA to do this.';
+//console.log(string2); //it works!
 
-const string2='It\'s in my DNA to do this.';
-console.log(string2); //it works!
+//const nam='Henry';
+//const greeting=`Hello, ${nam}`;
+//console.log(greeting);
 
-const nam='Henry';
-const greeting=`Hello, ${nam}`;
-console.log(greeting);
+//const one='Hi';
+//const two=' there!';
+//const oneplustwo=`${one}${two}`;
+//console.log(oneplustwo);
 
-const one='Hi';
-const two=' there!';
-const oneplustwo=`${one}${two}`;
-console.log(oneplustwo);
-
-let text="beans";
-let newtext=text.replace("beans", "carrots");
-console.log(newtext);
+//let text="beans";
+//let newtext=text.replace("beans", "carrots");
+//console.log(newtext);
 
 // alert  ('Z'>'A');
 
 // alert('Glow'>'Glee');
 
-const time = new Date().getHours();
-let greeting;
-if (time < 18) {
-    greeting="good day";
-} else if (time <19) {
-    greeting="good evening";
-} else {
-    greeting="clearly you're not from here."
-}
-document.getElementById("day").innerHTML=greeting;
-
+//const time = new Date().getHours();
+//let greeting;
+//if (time < 18) {
+//    greeting="good day";
+//} else if (time <19) {
+//    greeting="good evening";
+//} else {
+//    greeting="clearly you're not from here."
+//}
+//document.getElementById("day").innerHTML=greeting;
