@@ -85,15 +85,18 @@
 //    alert("office closed!");
 //}
 
-switch(expression) {
-    case choice1:
-        // run this code 
-        break;
-    
-    case choice2:
-        // run this code instead
-        break;
-    
-        // include as many of these.
-}
+//switch(expression) {
+//    case choice1:
+//        // run this code 
+//       break;
+//    
+//    case choice2:
+//        // run this code instead
+//        break;
+//    
+//        // include as many of these.
+//}
 
+let year = prompt ("In which year was Henry born?"," ");
+if (year==2002)alert("Correct!");
+else alert("WRONG");
