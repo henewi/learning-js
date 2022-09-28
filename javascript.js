@@ -75,12 +75,25 @@
 //}
 //document.getElementById("day").innerHTML=greeting;
 
-if (1||0) {
-    alert("hello!!!!");
+//if (1||0) {
+//    alert("hello!!!!");
+//}
+
+//let time=9;
+//let isWeekend=true;
+//if (time<10||time>18||isWeekend) {
+//    alert("office closed!");
+//}
+
+switch(expression) {
+    case choice1:
+        // run this code 
+        break;
+    
+    case choice2:
+        // run this code instead
+        break;
+    
+        // include as many of these.
 }
 
-let time=9;
-let isWeekend=true;
-if (time<10||time>18||isWeekend) {
-    alert("office closed!");
-}
