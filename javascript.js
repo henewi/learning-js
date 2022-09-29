@@ -113,3 +113,30 @@
 //else alert("That isn't a number");
 
 //let result = (a + b < 4) ? 'Below' : 'Over';
+
+const day = new Date().getDay();
+switch (day) {
+    case 0:
+        console.log("Its Sunday, time to relax!");
+        break;
+    case 1:
+        console.log("Happy monday!");
+        break;
+    case 2:
+        console.log("It is tuesday my dudes");
+        break;
+    case 3:
+        console.log("It is Wednesday my dudes");
+        break;
+    case 4:
+        console.log("Thurs");
+        break;
+    case 5:
+        console.log("Fri");
+        break;
+    case 6:
+        console.log("Sat");
+        break;
+    default:
+        console.log("We dun F**** up!");
+}
