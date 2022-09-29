@@ -140,3 +140,15 @@ switch (day) {
     default:
         console.log("We dun F**** up!");
 }
+
+const grade = prompt("what were your marks in the test?")
+switch(true) {
+    case grade >= 50:
+    alert("you passed!")
+    break;
+    case grade <= 49:
+    alert("you failed.");
+    break;
+    default:
+        console.log("something went wrong!")
+}
