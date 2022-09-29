@@ -101,6 +101,7 @@
 //if (year==2002)alert("Correct!");
 //else alert("WRONG");
 
-let jsname = prompt("Whats the official name of JS?","");
-if(jsname=="ECMAscript")alert("CORRECT!");
-else alert("WRONG.");
+//let jsname = prompt("Whats the official name of JS?","");
+//if(jsname=="ECMAscript")alert("CORRECT!");
+//else alert("WRONG.");
+
