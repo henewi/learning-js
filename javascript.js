@@ -112,4 +112,4 @@
 //else if (value < 0)alert("negative");
 //else alert("That isn't a number");
 
-let result = (a + b < 4) ? 'Below' : 'Over';
+//let result = (a + b < 4) ? 'Below' : 'Over';
