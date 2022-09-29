@@ -105,3 +105,9 @@
 //if(jsname=="ECMAscript")alert("CORRECT!");
 //else alert("WRONG.");
 
+let value = prompt("Give me a number");
+
+if (value == 0)alert("0");
+else if (value > 0)alert("positive");
+else if (value < 0)alert("negative");
+else alert("That isn't a number");
