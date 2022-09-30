@@ -114,56 +114,60 @@
 
 //let result = (a + b < 4) ? 'Below' : 'Over';
 
-const day = new Date().getDay();
-switch (day) {
-    case 0:
-        console.log("Its Sunday, time to relax!");
-        break;
-    case 1:
-        console.log("Happy monday!");
-        break;
-    case 2:
-        console.log("It is tuesday my dudes");
-        break;
-    case 3:
-        console.log("It is Wednesday my dudes");
-        break;
-    case 4:
-        console.log("Thurs");
-        break;
-    case 5:
-        console.log("Fri");
-        break;
-    case 6:
-        console.log("Sat");
-        break;
-    default:
-        console.log("We dun F**** up!");
-}
+//const day = new Date().getDay();
+//switch (day) {
+//    case 0:
+//        console.log("Its Sunday, time to relax!");
+//        break;
+//    case 1:
+//        console.log("Happy monday!");
+//        break;
+//    case 2:
+//        console.log("It is tuesday my dudes");
+//        break;
+//    case 3:
+//        console.log("It is Wednesday my dudes");
+//        break;
+//    case 4:
+//        console.log("Thurs");
+//        break;
+//    case 5:
+//        console.log("Fri");
+//        break;
+//    case 6:
+//        console.log("Sat");
+//        break;
+//    default:
+//        console.log("We dun F**** up!");
+//}
 
-const grade = prompt("what were your marks in the test?")
-switch(true) {
-    case grade >= 50:
-    alert("you passed!")
-    break;
-    case grade <= 49:
-    alert("you failed.");
-    break;
-    default:
-        console.log("something went wrong!")
-}
+//const grade = prompt("what were your marks in the test?")
+//switch(true) {
+//    case grade >= 50:
+//    alert("you passed!")
+//    break;
+//    case grade <= 49:
+//    alert("you failed.");
+//    break;
+//    default:
+//        console.log("something went wrong!")
+//}
 
 // testing testing
 
-function troubleshooting() {
+//function troubleshooting() {
 
-const a = 1;
-const b = 2;
+//const a = 1;
+//const b = 2;
 
-let result;
+//let result;
 
-result = a + b;
+//result = a + b;
 
-return result;
+//return result;
 
-}
+//}
+
+const myText = "im a string";
+const newString = myText.replace("string","sausage");
+console.log(newString);
