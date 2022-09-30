@@ -171,3 +171,9 @@
 const myText = "im a string";
 const newString = myText.replace("string","sausage");
 console.log(newString);
+
+function test() {
+    alert("hi!")
+}
+
+test();
