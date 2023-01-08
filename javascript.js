@@ -22,3 +22,9 @@ var myVar = 68;
 myVar++; 
 console.log(myVar);
 
+// Decimals 
+
+var myDecimal = 0.2;
+var product = myDecimal * 20;
+console.log(product);
+
